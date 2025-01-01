@@ -723,3 +723,7 @@ ul {
     margin-bottom: 5px;
 
 }
+.mega-menu-section li:hover {
+    font-weight: 700;
+    color: black;
+}
