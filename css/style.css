@@ -581,34 +581,40 @@ ul {
     /* border: 2px solid teal; */
     display: flex;
     /* margin-bottom: 50px; */
-    overflow: hidden;
-
 }
 
 .base1 {
-    width: 50%;
-    height: 100%;
-    /* border: 2px solid gray; */
+    width: 504px;
+    height: 395px;
+    /* border: 2px solid red; */ */
     padding-right: 8px;
     background-color: transparent;
-    transform: scale(1);
+    overflow: hidden;
+    margin-right: 8px;
 
 }
-.base1:hover {
-    transform: scale(1.1);
+.base1:hover img{
+    transform: scale(1.05);
+}
+.base1 img {
+    transition: 400ms;
 }
 
 .base2 {
-    width: 50%;
-    height: 100%;
-    /* border: 2px solid goldenrod; */
+    width: 504px;
+    height: 395px;
+    /* border: 2px solid blue;  */
     padding-right: 8px;
     background-color: transparent;
-    transform: scale(1);
+    overflow: hidden;
+    margin-right: 8px;
 
 }
-.base2:hover {
-    transform: scale(1.1);
+.base2:hover img{
+    transform: scale(1.05);
+}
+.base2 img {
+    transition: 400ms;
 }
 
 .picture {
@@ -637,44 +643,57 @@ ul {
     height: 555px;
     /* border: 4px solid gray; */
     padding-left: 60px;
+    background-color: rgb(239, 237, 237);
     padding-right: 60px;
     display: flex;
+    /* gap: 8px; */
     color: #7e818c;
-    overflow: hidden;
-    transition: 0.6s;
+    position: relative;
 }
 
 .f-box1 {
-    width: 33%;
-    height: 485px;
-    padding-right: 8px;
+    width: 455px;
+    height: 486px;
+    padding-right: 10px;
+    overflow: hidden;
     /* border: 3px solid pink; */
-    transform: scale(0.8);
 }
-.f-box1:hover {
-    transform: scale(0.9);
+.f-box1 img {
+    transition: 300ms;
+}
+.f-box1:hover img{
+    transform: scale(1.05);
+    overflow: hidden;
 }
 
 .f-box2 {
-    width: 33%;
-    height: 485px;
-    padding-right: 8px;
+    width: 455px;
+    height: 486px;
+    padding-right: 10px;
     /* border: 3px solid brown; */
-    transform: scale(0.8);
+    overflow: hidden;
 }
-.f-box2:hover {
-    transform: scale(0.9);
+.f-box2 img {
+    transition: 300ms;
+}
+.f-box2:hover img{
+    transform: scale(1.05);
+    overflow: hidden;
 }
 
 .f-box3 {
-    width: 33%;
-    height: 485px;
-    padding-right: 8px;
+    width: 455px;
+    height: 486px;
+    padding-right: 10px;
     /* border: 3px solid darkolivegreen; */
-    transform: scale(0.8);
+    overflow: hidden;
 }
-.f-box3:hover {
-    transform: scale(0.9);
+.f-box3 img {
+    transition: 300ms;
+}
+.f-box3:hover img{
+    transform: scale(1.05);
+    overflow: hidden;
 }
 
 .fifth-box {
@@ -693,17 +712,21 @@ ul {
     padding-right: 60px;
     display: flex;
     overflow: hidden;
-    transition: 0.6s;
 }
 
 .s-box {
     width: 271px;
     height: 245px;
     /* border: 2px solid green; */
-    transform: scale(0.8);
+    overflow: hidden;
 }
-.s-box:hover {
-    transform: scale(0.9);
+
+.s-box:hover img{
+    transform: scale(1.06);
+    cursor: pointer;
+}
+.s-box img {
+    transition: 0.5s;
 }
 
 .mega-menu {
@@ -756,4 +779,10 @@ ul {
 .mega-menu-section li:hover {
     font-weight: 700;
     color: black;
+}
+.base-shopping {
+    width: 1519px;
+    height: 50px;
+    margin-top: 50px;
+    /* border: 2px solid red; */
 }
